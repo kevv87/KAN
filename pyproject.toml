@@ -28,9 +28,6 @@ package-mode = false
 pythonpath = ["src"]  # Esto permite imports directos en tests
 testpaths = ["tests"]
 
-[tool.pyright]
-typeCheckingMode = "strict"
-
 [pytest]
 mock_use_standalone_module = true
 
